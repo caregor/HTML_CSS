@@ -313,3 +313,88 @@
     }
 
 }
+
+@media (max-width: 374px){
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header {
+        width: auto;
+        padding: 19px 16px 19px 16px;
+
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .bin {
+        display: none;
+    }
+
+    .brand {
+        height: 363px;
+        justify-content: center;
+    }
+
+    .img_brand {
+        display: none;
+    }
+
+    .brand_svg {
+        height: 61px; 
+    }
+
+    .text-top {
+        font-size: 38px;
+    }
+
+    .text-bottom {
+        font-size: 20px;
+    }
+
+    .color {
+        font-size: 20px;
+    }
+
+    .brand_text {
+        justify-content: center;
+    }
+
+    .offer {
+        padding-bottom: 64px;
+        gap: 32px;
+    }
+
+    .offer_card {
+        width: 343px;
+        height: 248px;
+    }
+
+    .card4 {
+        width: 343px;
+        height: 111px;
+    }
+
+    .content {
+        padding-bottom: 85px;
+    }
+
+    .products_subtitle {
+        padding-top: 0;
+        padding-bottom: 65px;
+        transform: rotate(0);
+    }
+
+    .products {
+        padding-bottom: 41px;
+        gap: 16px;
+        grid-template-columns: repeat(1, 360px);
+    }
+
+    .product_price{
+        padding-bottom: 20px;
+    }
+}
