@@ -403,6 +403,13 @@
     align-items: center;
     gap: 7px;
 }
+.social_link:hover .social_icon .background {
+    fill: #F16D7F;
+}
+
+.social_link:hover .social_icon .foreground {
+    fill: white;
+}
 
 @media (max-width: 767px) {
     .center {
