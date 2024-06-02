@@ -40,9 +40,26 @@
 }
 
 .btn_menu {
+    position: relative;
     background: #222222;
     outline: none;
     border: none;
+}
+
+.bin_filled::after {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 19px;
+    height: 19px;
+    content: "5";
+    color: #fff;
+    background-color: #F16D7F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
 }
 
 .brand {
